@@ -20,7 +20,9 @@ def ig_download():
 
     driver = webdriver.Chrome()
 
+    
     id = input('Enter the id you want to download: ')
+    # if you don't have account you can input '0'
     user_id = input('Enter your account: ')
     user_password = input('Enter your password: ')
 
